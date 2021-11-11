@@ -1,6 +1,6 @@
 VERSION := 0.0.1
-NAME := cakiki
-REPO := neural-poetry
+NAME := webis
+REPO := ml4cd-21
 
 build: clean
 	docker build -f dockerfiles/Dockerfile.tf.gpu -t ${REPO}/${NAME}:${VERSION} -t ${REPO}/${NAME}:latest .

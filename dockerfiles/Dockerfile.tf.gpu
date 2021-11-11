@@ -1,3 +1,3 @@
-FROM tensorflow/tensorflow:2.6.0rc2-gpu-jupyter
+FROM tensorflow/tensorflow:2.7.0-gpu-jupyter
 
-RUN pip install --use-feature=2020-resolver "jax[cuda111]" -f https://storage.googleapis.com/jax-releases/jax_releases.html tensorflow-addons flax tensorflow_hub tensorflow-probability transformers datasets[streaming] pandas nltk spacy scikit-learn https://github.com/kpu/kenlm/archive/master.zip
+RUN pip install --use-feature=2020-resolver transformers datasets[streaming] pandas nltk spacy scikit-learn 
