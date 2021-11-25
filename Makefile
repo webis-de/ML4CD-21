@@ -1,4 +1,4 @@
-VERSION := 0.0.1
+VERSION := 0.0.2
 NAME := webis
 REPO := ml4cd-21
 
